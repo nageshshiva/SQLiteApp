@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shiva.sqliteapp.UpdateActivity">
+
+    <EditText
+        android:id="@+id/update_et1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/update_et2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:layout_margin="10dp"
+        android:layout_below="@id/update_et1"/>
+
+    <EditText
+        android:id="@+id/update_et3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="SurName"
+        android:layout_margin="10dp"
+        android:layout_below="@id/update_et2"/>
+
+    <EditText
+        android:id="@+id/update_et4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Marks"
+        android:layout_margin="10dp"
+        android:layout_below="@id/update_et3"/>
+
+    <Button
+        android:id="@+id/update_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Update"
+        android:textSize="16dp"
+        android:textAllCaps="true"
+        android:layout_below="@id/update_et4"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>
